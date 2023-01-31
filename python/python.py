@@ -1,12 +1,14 @@
 print ("Hello, User")
 
-name = input("What is your name: ")
+name = input("Q: What is your name: ")
+print ("A: My name is Amina")
 print(f"Welcome, {name},")
 print ("Thank You!")
 
-print ("I am studying Information and Communication Technology")
+course = input("Q: What course are you studying?: ")
+print(f"A: I am studying {course}")
 
-color = input("What is your favorite color?: ")
-print(f"My favorite color is {color}")
+color = input("Q: What is your favorite color?: ")
+print(f"A: My favorite color is {color}")
 
 
