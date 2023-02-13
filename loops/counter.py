@@ -5,4 +5,4 @@ for letter in sentence:
     if letter != " ":
         counter += 1
 
-print(counter)  
+print(counter)
