@@ -52,7 +52,7 @@ def view_cont():
 
 # search contatcs in the phonebook
 def search_cont():
-    name = input("Enter name to search: ")
+    name = input("Enter name to search: ") 
     if name in contacts:
         info = contacts[name]
         print("Name", info['name'])
