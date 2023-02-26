@@ -1,2 +1,2 @@
 # aminahiit_repo
-This repository is for an exercise
+This repository is for exercises
