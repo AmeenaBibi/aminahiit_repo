@@ -1,18 +1,18 @@
 # single inheritance
-#class Parent:
-#    def __init__(self, name, job):
-#        self.pname = name
-#        self.pjob = job
+"""  class Parent:
+    def __init__(self, name, job):
+        self.pname = name
+        self.pjob = job
 
-#class Child(Parent):
-#    def __init__(self, cname, pname, pjob):
-#        super().__init__(pname, pjob)
-#
-#        self.child_name = cname
+class Child(Parent):
+    def __init__(self, cname, pname, pjob):
+        super().__init__(pname, pjob)
+
+        self.child_name = cname
     
-#peter = Child('Peter', 'James', 'Programmer')
-#print(peter.pjob)
-#print(peter.pname) 
+peter = Child('Peter', 'James', 'Programmer')
+print(peter.pjob)
+print(peter.pname)""" 
 
 
 # multiple inheritance
