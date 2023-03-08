@@ -58,8 +58,10 @@ def withdraw_acc():
     amount = acc.balance - withdraw
     print(f'{amount}')
 
-# def check_bal():
+def check_bal():
+    print()
 
-# def disp_history():
+def disp_history():
+    print()
 
 main()
