@@ -3,6 +3,7 @@ def main():
     totalOfStaffSalary = 0
     staff_data = getEmployeeData('name2.txt')
     for data in staff_data:
+        print(data)
         totalOfStaffSalary += data.salary
 
     return totalOfStaffSalary/(len(staff_data))
