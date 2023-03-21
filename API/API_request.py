@@ -3,4 +3,4 @@ response = requests.get("http://api.weatherapi.com/v1/current.json?key=7f58f399e
 
 # print(response.json())
 data = response.json()
-print(data['current']['humidity'])
+print(data['location']['localtime'])
