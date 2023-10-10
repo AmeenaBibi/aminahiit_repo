@@ -1,5 +1,3 @@
 word = input("Enter word: ")
-if word == word[::-1]:
-    print(f"{word} is a palindrome")
-else:
-    print(f"{word} is not a palindrome")
+is_palindrome = word == word[::-1] 
+print(f"Is the word {word} a palindrome?: {is_palindrome}")
